@@ -14,7 +14,7 @@ Essentially, we want to create MCNP materials cards with the following pseudocod
 ```
 m{fe id} 92235.80c -{g U-235}  92238.80c -{g U-238}
          94249.80c -{g Pu-239}
-         40000.80c -{g Zr}     1001.80c -{g H}
+         40000.80c -{g Zr}      1001.80c -{g H}
 c
 mt{fe id} h/zr.10t zr/h.10t
 ```
