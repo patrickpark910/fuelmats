@@ -38,7 +38,12 @@ def main():
     # 'df.iloc[:,n]' prints the (n+1)th column of the dataframe
 
     for i in range(0,len(mass_fracs_df)):
-        print(f"m{int(mass_fracs_df.loc[i,'fe_id'])}    ")
+        print(f"m{int(mass_fracs_df.loc[i,'fe_id'])}"
+              f"    92235.80c {mass_fracs_df.loc[i,'g_U235']}"
+              f"    92238.80c {mass_fracs_df.loc[i,'g_U238']}"
+              f"    94249.80c {mass_fracs_df.loc[i,'g_Pu239']}"
+              f"    40000.80c {mass_fracs_df.loc[i,'g_Zr']}"
+              f"     1001.80c {mass_fracs_df.loc[i,'g_H']}")
     #print(burnup_df)
     #print(len(mass_fracs_df))
     '''
